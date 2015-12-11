@@ -1,0 +1,6 @@
+name = "Entity Forcontu"
+description = "Define a new entity type named Item"
+core = 7.x
+files[] = entity_forcontu.module
+files[] = entity_forcontu.install
+package = My modules
