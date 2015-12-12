@@ -289,6 +289,9 @@ function entity_forcontu_item_form($form, &$form_state, $entity) {
     '#type' => 'value',
     '#value' => $entity,
   );
+
+  field_attach_form('entity_forcontu_item', $entity, $form, $form_state);
+  
   $form['submit'] = array(
     '#type' => 'submit',
     '#value' => t('Save'),
